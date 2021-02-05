@@ -1,0 +1,96 @@
+body{
+font-family: 'Karla', sans-serif;
+font-size: 16px;
+width: fit-content;
+background-color: hsl(204, 43%, 93%);
+}
+.box{
+    width: 650px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    left: 35vw;
+    top: 20vh;
+    box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.116);
+}
+.box_box-1{
+    padding: 5px 60px 30px 40px;
+}
+.box_box-2{
+    background: hsl(179, 62%, 43%);
+    border-radius: 10px;
+    height: 270px;
+
+}
+.box-1_mainTitle{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+
+}
+.box-1_subTitle{
+    color: hsl(71, 73%, 54%);
+}
+.box-1_info{
+    font-weight: 400px;
+    color: hsl(218, 22%, 67%);
+}
+.box-2-1_mainTitle{
+    color: white;
+    margin-top: 18.7px;
+    font-weight: 400;
+}
+
+.box-2-1_price{
+   
+    width: inherit;
+    color: rgba(255, 255, 255, 0.603);
+}
+.box-2_info{
+    color: white;
+    margin-bottom: 35px;
+}
+.box-2_button{
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.151);
+}
+.box-2_box-2-1{
+    display: inline-block;
+    width: 325px;
+    height: 270px;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px ;
+    padding: 20px 40px 20px 40px;
+}
+.box-2_box-2-2{
+    background: hsl(179, 47%, 55%);
+    width: 325px;
+    height: 270px;
+    float: right;
+    padding: 20px 80px 20px 40px;
+    color: white;
+    border-bottom-right-radius:10px ;
+}
+.box-2-2_why{
+    margin: 0;
+    margin-top: 18.7px;
+    font-weight: 400;
+}
+.box-2-2_info{
+    line-height: 25px;
+}
+.price_num{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    vertical-align: middle;
+    margin-right: 7px ;
+}
